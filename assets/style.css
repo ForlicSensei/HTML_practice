@@ -1,0 +1,548 @@
+body{
+    margin: 0;
+    font-family: 'TitiliumWeb',sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+} 
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 35px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+}
+
+.header__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.nav__link{
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nav__link:first-child{
+    padding:  14px 20px;
+
+    background-color: rgb(0,0,0,0.5);
+    
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.nav__link:hover{
+    text-decoration: underline;
+}
+.nav__link:first-child:hover{
+    background-color: rgb(0,0,0,1);
+}
+
+
+/*      Welcome     */
+.Welcome{
+    height: 596px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(135,80,156)
+}
+
+.Welcome__title{
+    margin: 0;
+    font-size: 46px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 54px;
+}
+
+.Welcome__inner{
+    width: 100%;
+    max-width: 917px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding:  14px 40px;
+    
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn--red{
+    background-color: orange;
+}
+
+.btn--red:hover{
+    background-color: rgb(184, 129, 28);
+}
+
+
+/* Services */
+
+.Services{
+    height: 747px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23,194,163)
+}
+
+.Services__inner{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Services_title{
+    margin-top: 100px;
+    color: #fff;
+    margin-bottom: 21px;
+}
+
+.line{
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid gray;
+}
+
+.Service_subtext{
+    margin-top: 24px;
+    color: #fff;
+}
+
+.Services__inner_2{
+    margin-top: 83px;
+    
+    max-width: 1170px;
+    width: 100%;
+
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Services__nav{
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Icon{
+    height: 125px;
+}
+
+.Services__nav_title{
+    margin-top: 64px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.Services__nav_text{
+    font-size: 16px;
+    height: 189px;
+}
+
+
+
+/* Team */
+
+.Team{
+    height: 915px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231,241,248);
+}
+
+.Team__inner{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Team__tittle{
+    margin-top: 100px;
+    margin-bottom: 21px;
+}
+
+.Team__subtext{
+    margin-top: 24px;
+    margin-bottom: 200px;
+}
+
+.Team__inner_2{
+
+    
+    max-width: 1170px;
+    width: 100%;
+
+    color: black;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Team_nav{
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: inherit;
+}
+
+.Avatar{
+    margin-bottom: 41px;
+}
+
+.Name{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.subtext_name{
+    font-size: 16px;
+    color: rgb(158, 219, 241);
+    margin-bottom: 20px;
+}
+
+.Team__subtext{
+    font-size: 14px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+.Link_list{
+    margin-left: 10px;
+}
+
+
+/* Skills */
+
+.Skills{
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,255,255);
+}
+
+.Skills__inner{
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Skills_Tittle{
+    margin-top: 115px;
+    margin-bottom: 22px;
+}
+
+.Skills_subtext{
+    margin-bottom: 90px;
+}
+
+.Skills__Persents{
+    max-width: 1170px;
+    width: 100%;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+
+.Skills__tab{
+    margin-left: 120px;
+}
+
+.Skills__tab:first-child{
+    margin: 0;
+}
+
+
+/* Portfilio */
+
+.Portfolio{
+    height: 1423px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255,221,153);
+}
+
+.Portfolio__inner{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Portfolio_title{
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.Portfolion_subtext{
+    margin-top: 25px;
+}
+
+.Portfolio_nav{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_Portfolio{
+    display: inline-block;
+    vertical-align: top;
+    padding:  14px 20px;
+    margin: 50px 20px 65px 0;
+
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn_Portfolio:last-child{
+    margin: 50px 0px 65px 0;
+}
+
+.btn_Portfolio--red{
+    background-color: rgb(0,0,0,0.2);
+}
+
+.btn_Portfolio--red:hover{
+    background-color: rgb(255,255,255);
+}
+
+.Portfolio__works{
+    max-width: 1160px/2;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+
+.Portfolio__Pc{
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+.Portfolio_btn{
+
+    display: inline-block;
+    vertical-align: top;
+    padding:  20px 20px;
+
+    margin-top: 80px;
+
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.Portfolio_btn--red{
+    background-color: rgb(23,194,164);
+}
+
+.Portfolio_btn--red:hover{
+    background-color: rgb(11, 146, 121);
+}
+
+.Portfolio_button{
+    display: flex;
+    max-width: inherit;
+    justify-content: center;
+}
+
+
+/* TestTeMolis */
+
+
+.TestTeMolis{
+    height: 895px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 70, 128);
+}
+
+.TestTeMolis__inner{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.TestTeMolis_Tittle{
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.TestTeMolis_subtext{
+    margin-top: 25px;
+}
+
+.TestTeMolis__inner_2{
+    margin-top: 70px;
+}
+
+.TestTeMolis_tab{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.TestTeMolis_list{
+    margin-top: 40px;
+    width: 40%;
+    display: flex;
+}
+
+
+.TestTeMolis_img{
+    max-width: 96px;
+    max-height: 96px;
+    height: 100%;
+    width: auto;
+}
+.TestTeMolis_text{
+    margin-left: 45px;
+    color: #fff;
+}
+
+.TestTeMolis_main_text{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.TestTeMolis_Name{
+    font-size: 21px;
+}
+
+.TestTeMolis_subtext_list{
+    font-size: 18px;
+    color: rgb(255, 221, 153);
+}
+
+
+
+/* Forma */
+
+.Forma{
+    height: 895px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60, 84, 153);
+}
+
+.Input_form{
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.Input_Text{
+    background-color: rgb(0,0,0,0.2);
+    font-size: 18px;
+    color:#fff;
+    margin-right: 31px;
+    margin-bottom: 26px;
+    height: 50px;
+    width: 400px;
+}
+
+.Input_message{
+    height: 200px;
+    width: 836px;
+    background-color: rgb(0,0,0,0.2);
+    font-size: 18px;
+    color:#fff;
+}
+
+
+/* Link End */
+
+.LinkEnd{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 59, 119);
+}
+
+.LinkEnd_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.EndLink_link{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.EndLink_link:hover{
+    color: rgb(40, 119, 82);
+}
